@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+h1, h2, h3, h4, h5, h6, p, body{font-family:'Nunito', sans-serif}
+h1{font-size:65px}
+h2{font-size:50px}
+h3{font-size:40px}
+p{font-size:20px}
