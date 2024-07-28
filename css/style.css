@@ -1,6 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 h1, h2, h3, h4, h5, h6, p, body{font-family:'Nunito', sans-serif}
-h1{font-size:65px}
-h2{font-size:50px}
-h3{font-size:40px}
+h1{font-size:55px}
+h2{font-size:40px}
+h3{font-size:30px}
 p{font-size:20px}
+        .alert-box {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+            padding: 15px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .alert-title {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .alert-content {
+            margin-top: 5px;
+        }
+
+        .alert-icon {
+            font-size: 24px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
