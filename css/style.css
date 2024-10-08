@@ -12,11 +12,12 @@ p{font-size:20px}
             background-color: #f8d7da;
             color: #721c24;
             border: 1px solid #f5c6cb;
-            border-radius: 5px;
+            border-radius: 15px;
             padding: 15px;
-            width: 300px;
+            width: 900px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             z-index: 1000;
+            height: auto;
         }
 
         .alert-title {
